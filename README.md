@@ -23,6 +23,7 @@ The multi level perceptron model is used to classify the model,the specification
 
 ## Results
 The observation over the task is noticed that the model stops after certain specific number of iterations if there is not much change in the training loss and the training loss converges over the time. The model is tested over the test data and observed to give the over all accuracy of 85% bust as the dataset is skewed towards one class(having much of samples belonging to single class) The followng precision,recall and F1 score values are as follows 
+
                precision    recall  f1-score   support
 
 class negative       1.00      0.75      0.86        12
